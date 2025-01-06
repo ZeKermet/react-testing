@@ -1,5 +1,7 @@
 import reactLogo from "../../assets/reactLogo.png"
 import styles from './Header.module.css'
+import { NavLink } from 'react-router-dom'
+
 
 function Header() {
     return(
@@ -13,10 +15,10 @@ function Header() {
 
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><NavLink to="/react-testing/">Home</NavLink></li>
+                    <li><NavLink to="*">Services</NavLink></li>
+                    <li><NavLink to="/react-testing/about">About</NavLink></li>
+                    <li><NavLink to="/react-testing/contact">Contact</NavLink></li>
                 </ul>
             </nav>
         </header>

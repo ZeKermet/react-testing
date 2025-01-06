@@ -12,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/react-testing/" element={<Home />} />
           <Route path="/react-testing/about" element={<About />} />
+          <Route path="/react-testing/contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
