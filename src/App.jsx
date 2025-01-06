@@ -10,8 +10,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/react-test/" element={<Home />} />
+          <Route path="/react-test/about" element={<About />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
