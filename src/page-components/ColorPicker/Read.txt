@@ -1,0 +1,3 @@
+This is a practice to get to know how react works.
+
+Basic things like state management and react DOM manipulation

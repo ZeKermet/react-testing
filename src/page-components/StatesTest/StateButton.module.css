@@ -1,0 +1,29 @@
+.button {
+    border-radius: 4px;
+    font-size: 20px;
+    color: white;
+    padding: 0.5em 0.7em;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.select {
+    background: #5d9eff;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 540;
+    padding: 0.5em;
+    border-radius: 8px;
+}
+.select > option {
+    background: white;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
